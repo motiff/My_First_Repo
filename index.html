@@ -10,28 +10,38 @@
     <title>Tiffany Wu</title>
 </head>
 <body>
-  <div class="wrapper">
+  <section class="wrapper">
     <div class="header" id="header">
       <h1 class="name">Tiffany Wu</h1>
-      <h1 class="occupation">UI/UX Designer</h1>
+      <h2 class="occupation">UI/UX Designer</h2>
+      <!-- make occupation h2 -->
     </div>
     <div class="sidebar">
-      <a href="#header"><img src="portrait.jpg" width="220" height="340" class="portrait"></a>
-      <p><a href="#About Me">About Me</a></p>
-      <p><a href="#Work">Work</a></p>
-      <p><a href="#Contact">Contact</a></p>
+      <a href="#header"><img src="portrait.jpg" width="220" height="340" id="portrait"></a>
+      <ul class="sidebarMenu">
+        <li class="menuItem"><a href="#About Me">About Me</a></li>
+        <li class="menuItem"><a href="#Work">Work</a></li>
+        <li class="menuItem"><a href="#Contact">Contact</a></li>
+      </ul>
     </div>
     <div class="content" id="content">
       <!-- Content -->
-      <h2 id="About Me">About Me</h2>
+      <h3 id="About Me">About Me</h3>
         <p>I’m a UI/UX designer based in the Bay Area, California. 
           I am interested in how humans communicate ideas to each other, in both a sociological sense and an artistic sense. I love seeing people happy, having fun, and reaching a new, deeper level of mutual understanding of well-communicated ideas as a result of experiencing great design.
         </p>
       <br>
-      <h2 id="Work">Work</h2>
-      <div></div>
+      <h3 id="Work">Work</h3>
+      <div class="workContainer">
+        <div class="project">Project 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet nibh quam. Praesent et nulla eu nibh accumsan ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi rhoncus libero facilisis leo dapibus sollicitudin. Donec sit amet leo ipsum. Fusce augue augue, ultrices vitae dictum sed, tincidunt pharetra risus.</div>
+        <div class="project">Project 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet nibh quam. Praesent et nulla eu nibh accumsan ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi rhoncus libero facilisis leo dapibus sollicitudin. Donec sit amet leo ipsum. Fusce augue augue, ultrices vitae dictum sed, tincidunt pharetra risus.</div>
+      </div>
       <br>
-      <h2 id="Contact">Contact</h2>
+      <div class="workContainer">
+        <div class="project">Project 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet nibh quam. Praesent et nulla eu nibh accumsan ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi rhoncus libero facilisis leo dapibus sollicitudin. Donec sit amet leo ipsum. Fusce augue augue, ultrices vitae dictum sed, tincidunt pharetra risus.</div>
+        <div class="project">Project 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet nibh quam. Praesent et nulla eu nibh accumsan ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi rhoncus libero facilisis leo dapibus sollicitudin. Donec sit amet leo ipsum. Fusce augue augue, ultrices vitae dictum sed, tincidunt pharetra risus.</div>
+      </div>
+      <h3 id="Contact">Contact</h3>
           <p>
             tiffanywu404@gmail.com
             <br>
@@ -39,5 +49,5 @@
           </p>
     </div>
   
-  </div>
+  </section>
 </body>
