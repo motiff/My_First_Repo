@@ -151,7 +151,7 @@ a:visited{
   width: calc((((100vw - 280px)/12) * 4) + 60px);
 }
 footer{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   font-size: 16px;
   color:gray;
   text-align: center;
