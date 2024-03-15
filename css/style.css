@@ -15,8 +15,8 @@ div {
   margin-bottom: 100px;
 }
 body{
-  margin:0;
-  padding:0px;
+  margin: 0;
+  padding: 0px;
   font-family: Roboto, sans-serif;
 }
 h1{
@@ -54,10 +54,10 @@ p{
 }
 .name{
   font-size: 96px;
-  position:absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
-  margin-right:20px;
+  margin-right: 20px;
   margin-bottom: 100px;
 }
 .occupation{
@@ -73,7 +73,7 @@ p{
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   gap: 20px;
-  padding:20px;
+  padding: 20px;
 }
 /*.sidebarWrapper {
   grid-column: col-start / span 2;
